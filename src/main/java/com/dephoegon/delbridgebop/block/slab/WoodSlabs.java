@@ -1,7 +1,6 @@
 package com.dephoegon.delbridgebop.block.slab;
 
-import com.dephoegon.delbase.aid.block.colorshift.slab.chiseledSandStoneSlab;
-import com.dephoegon.delbridgebop.aid.extendedtypes.SlabWoods;
+import com.dephoegon.delbridgebop.aid.extendedtypes.slab.SlabWoods;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -9,7 +8,6 @@ import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -19,7 +17,6 @@ import java.util.function.Supplier;
 import static biomesoplenty.api.block.BOPBlocks.*;
 import static com.dephoegon.delbase.delbase.BASE_BLOCK;
 import static com.dephoegon.delbridgebop.DelBridgeBOP.Mod_ID;
-import static net.minecraft.world.level.block.Blocks.CHISELED_SANDSTONE;
 
 public class WoodSlabs {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Mod_ID);

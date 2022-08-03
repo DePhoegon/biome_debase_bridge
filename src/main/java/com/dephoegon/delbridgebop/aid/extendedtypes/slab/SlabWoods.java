@@ -1,4 +1,4 @@
-package com.dephoegon.delbridgebop.aid.extendedtypes;
+package com.dephoegon.delbridgebop.aid.extendedtypes.slab;
 
 import com.dephoegon.delbase.aid.block.stock.slabBlock;
 

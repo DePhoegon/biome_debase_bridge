@@ -1,0 +1,66 @@
+System Security & Stability
+------------------
+Working Mod Folder into Exclusions folders [ DEPHOEGON-ACER ]
+-Preventing lockout from On-access scanner
+
+=================
+
+BackPlane setups.
+---------
+Restructured Extended Types
+
+Sands.java / SolidifiedSands.java / SlabSands.java / StairSands.java / StairSandStones.java / StairWoods.java / SlabSandstones.java
+- Extended Delbase Slab class to hook into the methods tied to those classes.
+== Also encase any overrides need to take place for any reason
+
+===========================
+
+Registration of Blocks
+----------------
+Slabs
+-All
+=Sands
+=Chiseled Sandstone
+
+Stairs
+-All
+=Cut Sandstone
+=Woods
+=Sands
+=Chiseled Sandstone
+
+Override
+-Sands (biomesoplenty)
+=to assign same class ability as Delbase sands
+=puts it back under the same namespace as overridden
+
+SolidifedSands
+-From (biomesoplenty) sands
+
+======================
+
+Adding Steps to Steps.txt
+-----------------
+Override for Sands (biomesoplenty)
+-Bringing in line with Delbase
+Solidified Sands
+-Bringing in line with Delbase
+Energetic Slabs
+-Bringing in line with Delbase
+Chiseled Sandstone
+-Overlooked Slabs/Stairs/Walls missing from (biomesoplenty)
+-Bringing in line with Delbase
+
+Steps Marked complete
+------------------
+Slabs
+Stairs
+Override
+SolidSands
+
+====================
+
+Notes Additions
+----------
+Steps
+-No Intent List

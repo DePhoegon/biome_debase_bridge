@@ -1,6 +1,6 @@
 package com.dephoegon.delbridgebop.block.slab;
 
-import com.dephoegon.delbridgebop.aid.extendedtypes.SlabWoods;
+import com.dephoegon.delbridgebop.aid.extendedtypes.slab.SlabWoods;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

@@ -2,19 +2,14 @@ Steps in Order
 ==============
 Register Blocks
 ------------
-Slabs [Sand]
-Stairs [Cut SandStone, Sand, Wood]
-Walls [Sand, Wood]
+Slabs [-]
+Stairs [-]
+Walls [Sand, Wood, chiseled_sandstone]
 Fences [Mud Bricks, SandStone, Wood, Sand]
 FenceGates [Mud Bricks, SandStone, Wood, Sand]
-
-Compare for approachs (Deblase Vs Biomes O plenty)
-- Sand
-- SandStone
-
-if Sand Is choosen to be used from BOP
-- Override Sandblock in BOP
-- Create Soldified Sand for it.
+Override [-]
+SolidSands [-]
+EnergeticSlabs [Sandstone, Sand]
 
 Locate Textures
 ----------------
@@ -44,7 +39,7 @@ Align textures as needed
 =============  Notes ====================
 Mud Bricks (one Block)
 
-SandStone ( Cut, Normal, & Smooth)
+SandStone ( Cut, Normal, Smooth, & chiseled)
 - White
 - Orange
 - Black
@@ -67,3 +62,13 @@ Wood ( wood, log, stripped wood, stripped log )
 -Magic
 -Umbran
 -hellbark
+
+======================= Additional Notes ======================
+No Intent to do
+Alter Textures (biomesoplenty)
+No Color swapping with (biomesoplenty) Blocks
+-sands
+-sandstones
+=Requires update to Delbase to support it sensibly
+== Consideration, once 'Delbase' gets updated to support null variables on more types
+==~~ next update

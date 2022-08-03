@@ -13,7 +13,7 @@ DelBridgeBOP.java
 
 LogSlabs.java / WoodSlabs.java / StrippedLogSlabs.java / StrippedWoodSlabs.java
 - setup Registration for blocks,
-- setup eventbus pass-through for the register() call
+- setup eventbus pass-through for the register call
 
 RegList.java
 - Setup suggested registration order to keep organized, & use a loading priority if needed for something.

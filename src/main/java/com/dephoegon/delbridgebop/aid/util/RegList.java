@@ -1,9 +1,9 @@
 package com.dephoegon.delbridgebop.aid.util;
 
-import com.dephoegon.delbridgebop.block.slab.LogSlabs;
-import com.dephoegon.delbridgebop.block.slab.StrippedLogSlabs;
-import com.dephoegon.delbridgebop.block.slab.StrippedWoodSlabs;
-import com.dephoegon.delbridgebop.block.slab.WoodSlabs;
+import com.dephoegon.delbridgebop.block.gravity.OverrideSandsBOP;
+import com.dephoegon.delbridgebop.block.gravity.SolidSands;
+import com.dephoegon.delbridgebop.block.slab.*;
+import com.dephoegon.delbridgebop.block.stair.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 public class RegList {
@@ -19,8 +19,17 @@ public class RegList {
         LogSlabs.register(eventBus);
         StrippedWoodSlabs.register(eventBus);
         StrippedLogSlabs.register(eventBus);
+        SandSlabs.register(eventBus);
+        ChiseledSandstoneSlabs.register(eventBus);
 
         //Stairs
+        SandStairs.register(eventBus);
+        LogStairs.register(eventBus);
+        WoodStairs.register(eventBus);
+        StrippedLogStairs.register(eventBus);
+        StrippedWoodStairs.register(eventBus);
+        CutSandstoneStairs.register(eventBus);
+        ChiseledSandstoneStairs.register(eventBus);
 
         //Pillars
 
@@ -31,5 +40,7 @@ public class RegList {
         //Special_Blocks
 
         //Special
+        OverrideSandsBOP.register(eventBus);
+        SolidSands.register(eventBus);
     }
 }
