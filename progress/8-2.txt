@@ -1,3 +1,43 @@
 Setup
 ensure mods loaded & worked
 -on bus while doing it
+===========
+
+BackPlane setups.
+----------
+DelBridgeBOP.java
+- commented out 'Logger codes'
+- Setup Common Configuration registrationg
+- Setup Common Registration List for all Blocks/items
+== In order to allow load order to be done within the mod.
+
+LogSlabs.java / WoodSlabs.java / StrippedLogSlabs.java / StrippedWoodSlabs.java
+- setup Registration for blocks,
+- setup eventbus pass-through for the register() call
+
+RegList.java
+- Setup suggested registration order to keep organized, & use a loading priority if needed for something.
+
+WoodSlabs.java
+- Extended Delbase Slab class to hook into the burn&replacement used.
+== Also encase any overrides need to take place for any reason
+
+==============
+
+Registration of Blocks
+----------------
+- Slabs
+= All 11 types of Wood / Logs / Stripped Wood / Stripped Logs
+
+===================
+
+Notes
+-BridgeNotes.txt
+=handy dandy fresh notes and a checklist for what is needed for the base game.
+-Steps.txt
+=Planning & forethought given, based on what past experiences with my own mod
+=Laid out steps to avoid confusion
+
+Adjusted .gitignore to save screenshots
+
+Prepped for Server Only Tests

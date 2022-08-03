@@ -1,0 +1,69 @@
+Steps in Order
+==============
+Register Blocks
+------------
+Slabs [Sand]
+Stairs [Cut SandStone, Sand, Wood]
+Walls [Sand, Wood]
+Fences [Mud Bricks, SandStone, Wood, Sand]
+FenceGates [Mud Bricks, SandStone, Wood, Sand]
+
+Compare for approachs (Deblase Vs Biomes O plenty)
+- Sand
+- SandStone
+
+if Sand Is choosen to be used from BOP
+- Override Sandblock in BOP
+- Create Soldified Sand for it.
+
+Locate Textures
+----------------
+-Wood
+-Sand
+-SandStone
+-Mud Brick
+
+Model Files (Block & Item)
+------------
+Slabs [wood, sand]
+Stairs [cut sandstone, sand, wood]
+Walls [sand, wood]
+Fence [mud bricks, sandstone, wood, sand]
+FenceGate [mud bricks, sandstone, wood, sand]
+
+Tag Files
+----------
+Setup & used the tag files as needed.
+-Possibly Update Delbase to support tage usage.
+
+Fine Tune bits & bops
+--------------
+Align textures as needed
+
+
+=============  Notes ====================
+Mud Bricks (one Block)
+
+SandStone ( Cut, Normal, & Smooth)
+- White
+- Orange
+- Black
+
+Sand
+- White
+- Orange
+- Black
+- Rooted
+
+Wood ( wood, log, stripped wood, stripped log )
+-Fir
+-Redwood
+-Cherry
+-mahogany
+-jacaranda
+-palm
+-willow
+-Dead
+-Magic
+-Umbran
+-hellbark

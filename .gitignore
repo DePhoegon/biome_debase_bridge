@@ -19,7 +19,20 @@ build
 
 # other
 eclipse
-run
+
+# Allows backing up of screenshots for use on multiple systems
+run/config
+run/defaultconfigs
+run/logs
+run/mods
+run/patchouli_books
+run/resourcepacks
+run/saves
+run/crash-reports
+run/world
+run/*.properties
+run/*.txt
+run/*.json
 
 # Files from Forge MDK
 forge*changelog.txt

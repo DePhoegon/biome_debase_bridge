@@ -1,0 +1,36 @@
+Stripped logs / Stripped wood / logs / wood
+
+Fir
+Redwood
+Cherry
+mahogany
+jacaranda
+palm
+willow
+Dead
+Magic
+Umbran
+hellbark
+
+===========
+White sand
+orange sand
+black sand
+rooted sand
+
+========
+Sandstones   [Stairs/slabs/wall]
+regular [x/x/x]
+smooth [x/x/x]
+cut [-/x/x]
+- of white, orange, black
+
+Mud Brick
+- Stair
+- Slab
+- wall
+
+===================
+Completed Selection
+
+Wood Slabs [x]
