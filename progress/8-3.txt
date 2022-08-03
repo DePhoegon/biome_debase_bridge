@@ -4,6 +4,11 @@ Working Mod Folder into Exclusions folders [ DEPHOEGON-ACER ]
 -Preventing lockout from On-access scanner
 
 =================
+Delbase - DePhoegons' Reclaim Updated to ver 1.1.0
+- Color logic Adapted to Nullable any block in it
+= Bridge Compatibility to allow intended color swapping of limited block selections
+
+=================
 
 BackPlane setups.
 ---------
@@ -50,6 +55,9 @@ Energetic Slabs
 Chiseled Sandstone
 -Overlooked Slabs/Stairs/Walls missing from (biomesoplenty)
 -Bringing in line with Delbase
+Dye Extension
+- Establishing a Priority for bridges.
+= further bridges will need to have 2 versions (1 with the higher priority bridge & 1 without)
 
 Steps Marked complete
 ------------------

@@ -146,12 +146,9 @@ dependencies {
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:${mc_version}-${patchouli_ver}:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${mc_version}-${patchouli_ver}")
 
-    // DePhoegons' Reclaim - Version 1.0 [fileID] 3887911
-    // 1.0.5 - 3895451
-    // Same Dependencies in DePhoegons' Reclaim are used here as well.
-    implementation fg.deobf("curse.maven:delbase-648173:3895451")
-    implementation fg.deobf("curse.maven:biomesoplenty-220318:3759236")
-    implementation fg.deobf("curse.maven:terrablender-563928:3800961")
+    implementation fg.deobf("curse.maven:delbase-648173:${delbase_core}")
+    implementation fg.deobf("curse.maven:biomesoplenty-220318:${biomesoplent_core}")
+    implementation fg.deobf("curse.maven:terrablender-563928:${terrablender_core}")
 
     // Examples using mod jars from ./libs
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")

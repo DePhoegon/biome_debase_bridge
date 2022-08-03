@@ -11,6 +11,13 @@ Override [-]
 SolidSands [-]
 EnergeticSlabs [Sandstone, Sand]
 
+Dye Extends
+---------------
+Setup in a priority setup
+-BiomesOplenty bridge first
+=Future bridges, needing to override dyes for color swaps, do so from the bridge mod instead.
+
+
 Locate Textures
 ----------------
 -Wood
@@ -66,9 +73,3 @@ Wood ( wood, log, stripped wood, stripped log )
 ======================= Additional Notes ======================
 No Intent to do
 Alter Textures (biomesoplenty)
-No Color swapping with (biomesoplenty) Blocks
--sands
--sandstones
-=Requires update to Delbase to support it sensibly
-== Consideration, once 'Delbase' gets updated to support null variables on more types
-==~~ next update

@@ -48,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 [[dependencies.delbridgebop]]
     modId="delbase"
     mandatory=true
-    versionRange="[1,)"
+    versionRange="[1.1,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.delbridgebop]]
