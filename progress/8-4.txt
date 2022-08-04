@@ -1,0 +1,24 @@
+BackPlane setups.
+---------
+Fence, FenceGate, & energy Slabs
+-Extended types
+
+Tag Structure Setup
+-Minecraft
+-Delbase
+-Self
+
+Folder structure Setup (assets)
+-Self
+
+Block Registration
+----------------------
+-Fences (all)
+-Fence Gates (all)
+-Walls (all)
+-Slabs (all)
+-Stair (all)
+-Energy Slabs (all)
+
+Block Registration Done
+======================

@@ -4,12 +4,16 @@ Register Blocks
 ------------
 Slabs [-]
 Stairs [-]
-Walls [Sand, Wood, chiseled_sandstone]
-Fences [Mud Bricks, SandStone, Wood, Sand]
-FenceGates [Mud Bricks, SandStone, Wood, Sand]
+Walls [-]
+Fences [-]
+FenceGates [-]
 Override [-]
 SolidSands [-]
-EnergeticSlabs [Sandstone, Sand]
+EnergeticSlabs [-]
+
+Language files
+---------------
+names for blocks
 
 Dye Extends
 ---------------
@@ -32,6 +36,8 @@ Stairs [cut sandstone, sand, wood]
 Walls [sand, wood]
 Fence [mud bricks, sandstone, wood, sand]
 FenceGate [mud bricks, sandstone, wood, sand]
+SolidSands [Sand]
+EnergeticSlabs [Sandstone, Sand]
 
 Tag Files
 ----------
