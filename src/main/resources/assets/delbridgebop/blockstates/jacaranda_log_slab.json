@@ -1,0 +1,13 @@
+{
+"variants": {
+"type=bottom": {
+"model": "delbridgebop:block/slab/jacaranda_log_slab"
+},
+"type=double": {
+"model": "delbridgebop:block/slab/jacaranda_log_slab_double"
+},
+"type=top": {
+"model": "delbridgebop:block/slab/jacaranda_log_slab_top"
+}
+}
+}

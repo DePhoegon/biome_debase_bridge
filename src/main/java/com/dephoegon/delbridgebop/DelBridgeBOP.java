@@ -45,7 +45,7 @@ public class DelBridgeBOP
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CommonConfig.SPEC, "delbase-bridge-piomesoplenty-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CommonConfig.SPEC, "delbase-bridge-biomesoplenty-common.toml");
     }
 
     private void setup(final FMLCommonSetupEvent event)

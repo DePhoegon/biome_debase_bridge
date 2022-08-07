@@ -1,0 +1,8 @@
+{
+"parent": "minecraft:block/slab_top",
+"textures": {
+"bottom": "biomesoplenty:block/rooted_sand",
+"top": "biomesoplenty:block/rooted_sand",
+"side": "biomesoplenty:block/rooted_sand"
+}
+}

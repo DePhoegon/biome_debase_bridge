@@ -1,0 +1,7 @@
+{
+"parent": "delbase:block/template/wall_side_tall",
+"textures": {
+"wall": "biomesoplenty:block/orange_sandstone_top",
+"top": "biomesoplenty:block/chiseled_orange_sandstone"
+}
+}

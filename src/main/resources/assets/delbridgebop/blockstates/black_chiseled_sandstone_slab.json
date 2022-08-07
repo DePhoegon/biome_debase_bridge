@@ -1,0 +1,13 @@
+{
+"variants": {
+"type=bottom": {
+"model": "delbridgebop:block/slab/black_chiseled_sandstone_slab"
+},
+"type=double": {
+"model": "delbridgebop:block/slab/black_chiseled_sandstone_slab_double"
+},
+"type=top": {
+"model": "delbridgebop:block/slab/black_chiseled_sandstone_slab_top"
+}
+}
+}

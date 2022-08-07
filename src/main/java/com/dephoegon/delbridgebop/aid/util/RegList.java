@@ -1,16 +1,11 @@
 package com.dephoegon.delbridgebop.aid.util;
-import com.dephoegon.delbridgebop.block.fences.*;
+import com.dephoegon.delbridgebop.block.fence.*;
 import com.dephoegon.delbridgebop.block.gravity.OverrideSandsBOP;
 import com.dephoegon.delbridgebop.block.gravity.SolidSands;
 import com.dephoegon.delbridgebop.block.slab.*;
 import com.dephoegon.delbridgebop.block.stair.*;
 import com.dephoegon.delbridgebop.block.wall.*;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-
-import static com.dephoegon.delbridgebop.DelBridgeBOP.Mod_ID;
 
 public class RegList {
     public static void ListOrder(IEventBus eventBus) {

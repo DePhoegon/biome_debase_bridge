@@ -1,0 +1,9 @@
+{
+"parent": "delbase:block/template/inner_stairs",
+"textures": {
+"bottom": "biomesoplenty:block/black_sand",
+"top": "biomesoplenty:block/black_sand",
+"side": "biomesoplenty:block/black_sand",
+"inside": "biomesoplenty:block/black_sand"
+}
+}

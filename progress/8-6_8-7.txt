@@ -1,0 +1,13 @@
+DataGen Setup
+----------------------
+NodeJS
+-Generates fences, fence gates, stairs, walls, slabs
+-- generates blockstates, block model files, item model files, loot tables
+
+assigns textures, and setups up even with hold textures.
+
+------------------
+
+adjusted folder structures
+
+Created batch file, using powershell to remove 'already registered blocks in other mods/not registered in this mod' from the generation files.

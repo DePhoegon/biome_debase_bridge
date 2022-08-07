@@ -1,0 +1,7 @@
+{
+"parent": "delbase:block/template/fence_gate",
+"textures": {
+"texture": "biomesoplenty:block/umbran_log_top",
+"postside": "biomesoplenty:block/umbran_log"
+}
+}

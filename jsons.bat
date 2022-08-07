@@ -1,0 +1,30 @@
+call node ./fivemodeltypes mud bricks 1 1 3 3 mud_bricks 0 0
+call node ./fivemodeltypes white smooth_sandstone 1 1 3 3 white_sandstone_top 0 0
+call node ./fivemodeltypes orange smooth_sandstone 1 1 3 3 orange_sandstone_top 0 0
+call node ./fivemodeltypes black smooth_sandstone 1 1 3 3 black_sandstone_top 0 0
+call node ./fivemodeltypes white sandstone 1 1 3 3 white_sandstone_top white_sandstone white_sandstone_bottom
+call node ./fivemodeltypes orange sandstone 1 1 3 3 orange_sandstone_top orange_sandstone orange_sandstone_bottom
+call node ./fivemodeltypes black sandstone 1 1 3 3 black_sandstone_top black_sandstone black_sandstone_bottom
+call node ./fivemodeltypes white cut_sandstone 1 1 3 3 white_sandstone_top cut_white_sandstone white_sandstone_bottom
+call node ./fivemodeltypes orange cut_sandstone 1 1 3 3 orange_sandstone_top cut_orange_sandstone orange_sandstone_bottom
+call node ./fivemodeltypes black cut_sandstone 1 1 3 3 black_sandstone_top cut_black_sandstone black_sandstone_bottom
+call node ./fivemodeltypes white chiseled_sandstone 1 1 3 3 white_sandstone_top chiseled_white_sandstone white_sandstone_bottom
+call node ./fivemodeltypes orange chiseled_sandstone 1 1 3 3 orange_sandstone_top chiseled_orange_sandstone orange_sandstone_bottom
+call node ./fivemodeltypes black chiseled_sandstone 1 1 3 3 black_sandstone_top chiseled_black_sandstone black_sandstone_bottom
+call node ./fivemodeltypes white sand 1 1 3 3 white_sand 0 0
+call node ./fivemodeltypes orange sand 1 1 3 3 orange_sand 0 0
+call node ./fivemodeltypes black sand 1 1 3 3 black_sand 0 0
+call node ./fivemodeltypes rooted sand 1 1 3 3 rooted_sand 0 0
+call node ./fivemodeltypes fir woodtype 1 1 3 3 fir_log_top fir_log 0
+call node ./fivemodeltypes redwood woodtype 1 1 3 3 redwood_log_top redwood_log 0
+call node ./fivemodeltypes cherry woodtype 1 1 3 3 cherry_log_top cherry_log 0
+call node ./fivemodeltypes mahogany woodtype 1 1 3 3 mahogany_log_top mahogany_log 0
+call node ./fivemodeltypes jacaranda woodtype 1 1 3 3 jacaranda_log_top jacaranda_log 0
+call node ./fivemodeltypes palm woodtype 1 1 3 3 palm_log_top palm_log 0
+call node ./fivemodeltypes willow woodtype 1 1 3 3 willow_log_top willow_log 0
+call node ./fivemodeltypes dead woodtype 1 1 3 3 dead_log_top dead_log 0
+call node ./fivemodeltypes magic woodtype 1 1 3 3 magic_log_top magic_log 0
+call node ./fivemodeltypes umbran woodtype 1 1 3 3 umbran_log_top umbran_log 0
+call node ./fivemodeltypes hellbark woodtype 1 1 3 3 hellbark_log_top hellbark_log 0
+
+./trim-included.bat

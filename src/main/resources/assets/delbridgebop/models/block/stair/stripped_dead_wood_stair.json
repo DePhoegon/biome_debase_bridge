@@ -1,0 +1,10 @@
+{
+"parent": "delbase:block/template/stairs_column",
+"textures": {
+"bottom": "biomesoplenty:block/dead_log_top",
+"top": "biomesoplenty:block/dead_log_top",
+"side": "biomesoplenty:block/dead_log",
+"inside": "biomesoplenty:block/dead_log_top",
+"inside_base": "biomesoplenty:block/dead_log_top"
+}
+}

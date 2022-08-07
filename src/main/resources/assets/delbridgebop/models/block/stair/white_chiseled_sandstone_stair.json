@@ -1,0 +1,9 @@
+{
+"parent": "delbase:block/template/stairs",
+"textures": {
+"bottom": "biomesoplenty:block/white_sandstone_top",
+"top": "biomesoplenty:block/white_sandstone_top",
+"side": "biomesoplenty:block/chiseled_white_sandstone",
+"inside": "biomesoplenty:block/white_sandstone_top"
+}
+}

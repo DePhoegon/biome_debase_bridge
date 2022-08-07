@@ -1,0 +1,10 @@
+{
+"parent": "delbase:block/template/stairs_column",
+"textures": {
+"bottom": "biomesoplenty:block/mahogany_log_top",
+"top": "biomesoplenty:block/mahogany_log_top",
+"side": "biomesoplenty:block/mahogany_log",
+"inside": "biomesoplenty:block/mahogany_log_top",
+"inside_base": "biomesoplenty:block/mahogany_log_top"
+}
+}

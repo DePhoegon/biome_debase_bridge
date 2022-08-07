@@ -1,0 +1,7 @@
+{
+"parent": "delbase:block/template/wall_post",
+"textures": {
+"wall": "biomesoplenty:block/black_sand",
+"top": "biomesoplenty:block/black_sand"
+}
+}

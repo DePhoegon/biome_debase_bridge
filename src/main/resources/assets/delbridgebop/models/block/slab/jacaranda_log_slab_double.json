@@ -1,0 +1,8 @@
+{
+"parent": "minecraft:block/cube_bottom_top",
+"textures": {
+"bottom": "biomesoplenty:block/jacaranda_log_top",
+"top": "biomesoplenty:block/jacaranda_log_top",
+"side": "biomesoplenty:block/jacaranda_log"
+}
+}

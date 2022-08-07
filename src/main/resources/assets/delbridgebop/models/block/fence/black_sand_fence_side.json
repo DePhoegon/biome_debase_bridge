@@ -1,0 +1,7 @@
+{
+"parent": "delbase:block/template/fence_side",
+"textures": {
+"texture": "biomesoplenty:block/black_sand",
+"postside": "biomesoplenty:block/black_sand"
+}
+}
