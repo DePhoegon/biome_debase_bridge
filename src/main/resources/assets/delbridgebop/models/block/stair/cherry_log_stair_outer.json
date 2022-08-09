@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/cherry_log_top",
 "top": "biomesoplenty:block/cherry_log_top",
 "side": "biomesoplenty:block/cherry_log",
-"inside": "biomesoplenty:block/cherry_log_top",
+"inside": "delbridgebop:block/cherry_log_inside",
 "inside_base": "biomesoplenty:block/cherry_log_top"
 }
 }

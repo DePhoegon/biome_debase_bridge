@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/fir_log_top",
 "top": "biomesoplenty:block/fir_log_top",
 "side": "biomesoplenty:block/fir_log",
-"inside": "biomesoplenty:block/fir_log_top",
+"inside": "delbridgebop:block/fir_log_inside",
 "inside_base": "biomesoplenty:block/fir_log_top"
 }
 }

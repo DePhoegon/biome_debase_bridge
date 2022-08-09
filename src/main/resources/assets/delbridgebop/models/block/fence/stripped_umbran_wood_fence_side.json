@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/fence_side",
 "textures": {
-"texture": "biomesoplenty:block/umbran_log_top",
-"postside": "biomesoplenty:block/umbran_log"
+"texture": "biomesoplenty:block/stripped_umbran_log_top",
+"postside": "biomesoplenty:block/stripped_umbran_log"
 }
 }

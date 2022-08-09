@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/jacaranda_log_top",
 "top": "biomesoplenty:block/jacaranda_log_top",
 "side": "biomesoplenty:block/jacaranda_log",
-"inside": "biomesoplenty:block/jacaranda_log_top",
+"inside": "delbridgebop:block/jacaranda_log_inside",
 "inside_base": "biomesoplenty:block/jacaranda_log_top"
 }
 }

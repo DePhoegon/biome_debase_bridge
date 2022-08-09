@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/magic_log_top",
 "top": "biomesoplenty:block/magic_log_top",
 "side": "biomesoplenty:block/magic_log",
-"inside": "biomesoplenty:block/magic_log_top",
+"inside": "delbridgebop:block/magic_log_inside",
 "inside_base": "biomesoplenty:block/magic_log_top"
 }
 }

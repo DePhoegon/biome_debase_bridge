@@ -1,10 +1,10 @@
 {
 "parent": "delbase:block/template/stairs_column",
 "textures": {
-"bottom": "biomesoplenty:block/cherry_log_top",
-"top": "biomesoplenty:block/cherry_log_top",
-"side": "biomesoplenty:block/cherry_log",
-"inside": "biomesoplenty:block/cherry_log_top",
-"inside_base": "biomesoplenty:block/cherry_log_top"
+"bottom": "biomesoplenty:block/stripped_cherry_log_top",
+"top": "biomesoplenty:block/stripped_cherry_log_top",
+"side": "biomesoplenty:block/stripped_cherry_log",
+"inside": "delbridgebop:block/stripped_cherry_log_inside",
+"inside_base": "biomesoplenty:block/stripped_cherry_log_top"
 }
 }

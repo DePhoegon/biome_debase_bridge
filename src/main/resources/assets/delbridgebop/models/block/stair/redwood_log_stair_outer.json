@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/redwood_log_top",
 "top": "biomesoplenty:block/redwood_log_top",
 "side": "biomesoplenty:block/redwood_log",
-"inside": "biomesoplenty:block/redwood_log_top",
+"inside": "delbridgebop:block/redwood_log_inside",
 "inside_base": "biomesoplenty:block/redwood_log_top"
 }
 }

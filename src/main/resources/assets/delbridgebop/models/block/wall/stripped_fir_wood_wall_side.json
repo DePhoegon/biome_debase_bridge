@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_side",
 "textures": {
-"wall": "biomesoplenty:block/fir_log_top",
-"top": "biomesoplenty:block/fir_log"
+"wall": "biomesoplenty:block/stripped_fir_log_top",
+"top": "biomesoplenty:block/stripped_fir_log"
 }
 }

@@ -1,10 +1,10 @@
 {
 "parent": "delbase:block/template/outer_stairs_column",
 "textures": {
-"bottom": "biomesoplenty:block/umbran_log_top",
-"top": "biomesoplenty:block/umbran_log_top",
+"bottom": "biomesoplenty:block/umbran_log",
+"top": "biomesoplenty:block/umbran_log",
 "side": "biomesoplenty:block/umbran_log",
-"inside": "biomesoplenty:block/umbran_log_top",
-"inside_base": "biomesoplenty:block/umbran_log_top"
+"inside": "biomesoplenty:block/umbran_log",
+"inside_base": "biomesoplenty:block/umbran_log"
 }
 }

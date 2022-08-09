@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_post",
 "textures": {
-"wall": "biomesoplenty:block/dead_log_top",
-"top": "biomesoplenty:block/dead_log"
+"wall": "biomesoplenty:block/stripped_dead_log_top",
+"top": "biomesoplenty:block/stripped_dead_log"
 }
 }

@@ -4,7 +4,7 @@
 "bottom": "biomesoplenty:block/palm_log_top",
 "top": "biomesoplenty:block/palm_log_top",
 "side": "biomesoplenty:block/palm_log",
-"inside": "biomesoplenty:block/palm_log_top",
+"inside": "delbridgebop:block/palm_log_inside",
 "inside_base": "biomesoplenty:block/palm_log_top"
 }
 }

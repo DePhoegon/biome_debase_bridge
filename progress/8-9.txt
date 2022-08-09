@@ -1,0 +1,3 @@
+created Inside textures of the wood stair textures
+
+corrected the jsons
