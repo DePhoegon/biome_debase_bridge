@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:fir_log_stair",
+    "delbridgebop:redwood_log_stair",
+    "delbridgebop:cherry_log_stair",
+    "delbridgebop:mahogany_log_stair",
+    "delbridgebop:jacaranda_log_stair",
+    "delbridgebop:palm_log_stair",
+    "delbridgebop:willow_log_stair",
+    "delbridgebop:dead_log_stair",
+    "delbridgebop:magic_log_stair",
+    "delbridgebop:umbran_log_stair",
+    "delbridgebop:hellbark_log_stair",
+    "delbridgebop:stripped_fir_log_stair",
+    "delbridgebop:stripped_redwood_log_stair",
+    "delbridgebop:stripped_cherry_log_stair",
+    "delbridgebop:stripped_mahogany_log_stair",
+    "delbridgebop:stripped_jacaranda_log_stair",
+    "delbridgebop:stripped_palm_log_stair",
+    "delbridgebop:stripped_willow_log_stair",
+    "delbridgebop:stripped_dead_log_stair",
+    "delbridgebop:stripped_magic_log_stair",
+    "delbridgebop:stripped_umbran_log_stair",
+    "delbridgebop:stripped_hellbark_log_stair"
+  ]
+}

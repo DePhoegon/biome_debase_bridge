@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:fir_log_wall",
+    "delbridgebop:redwood_log_wall",
+    "delbridgebop:cherry_log_wall",
+    "delbridgebop:mahogany_log_wall",
+    "delbridgebop:jacaranda_log_wall",
+    "delbridgebop:palm_log_wall",
+    "delbridgebop:willow_log_wall",
+    "delbridgebop:dead_log_wall",
+    "delbridgebop:magic_log_wall",
+    "delbridgebop:umbran_log_wall",
+    "delbridgebop:hellbark_log_wall",
+    "delbridgebop:stripped_fir_log_wall",
+    "delbridgebop:stripped_redwood_log_wall",
+    "delbridgebop:stripped_cherry_log_wall",
+    "delbridgebop:stripped_mahogany_log_wall",
+    "delbridgebop:stripped_jacaranda_log_wall",
+    "delbridgebop:stripped_palm_log_wall",
+    "delbridgebop:stripped_willow_log_wall",
+    "delbridgebop:stripped_dead_log_wall",
+    "delbridgebop:stripped_magic_log_wall",
+    "delbridgebop:stripped_umbran_log_wall",
+    "delbridgebop:stripped_hellbark_log_wall"
+  ]
+}

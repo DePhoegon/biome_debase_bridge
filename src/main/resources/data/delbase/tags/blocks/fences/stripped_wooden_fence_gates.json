@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:stripped_fir_log_fence_gate",
+    "delbridgebop:stripped_redwood_log_fence_gate",
+    "delbridgebop:stripped_cherry_log_fence_gate",
+    "delbridgebop:stripped_mahogany_log_fence_gate",
+    "delbridgebop:stripped_jacaranda_log_fence_gate",
+    "delbridgebop:stripped_palm_log_fence_gate",
+    "delbridgebop:stripped_willow_log_fence_gate",
+    "delbridgebop:stripped_dead_log_fence_gate",
+    "delbridgebop:stripped_magic_log_fence_gate",
+    "delbridgebop:stripped_umbran_log_fence_gate",
+    "delbridgebop:stripped_hellbark_log_fence_gate",
+    "delbridgebop:stripped_fir_wood_fence_gate",
+    "delbridgebop:stripped_redwood_wood_fence_gate",
+    "delbridgebop:stripped_cherry_wood_fence_gate",
+    "delbridgebop:stripped_mahogany_wood_fence_gate",
+    "delbridgebop:stripped_jacaranda_wood_fence_gate",
+    "delbridgebop:stripped_palm_wood_fence_gate",
+    "delbridgebop:stripped_willow_wood_fence_gate",
+    "delbridgebop:stripped_dead_wood_fence_gate",
+    "delbridgebop:stripped_magic_wood_fence_gate",
+    "delbridgebop:stripped_umbran_wood_fence_gate",
+    "delbridgebop:stripped_hellbark_wood_fence_gate"
+  ]
+}

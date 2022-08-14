@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:white_sand_fence",
+    "delbridgebop:orange_sand_fence",
+    "delbridgebop:black_sand_fence",
+    "delbridgebop:rooted_sand_fence"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:white_sand_slab",
+    "delbridgebop:orange_sand_slab",
+    "delbridgebop:black_sand_slab",
+    "delbridgebop:rooted_sand_slab",
+    "delbridgebop:white_energy_sand_slab",
+    "delbridgebop:orange_energy_sand_slab",
+    "delbridgebop:black_energy_sand_slab",
+    "delbridgebop:rooted_energy_sand_slab"
+  ]
+}

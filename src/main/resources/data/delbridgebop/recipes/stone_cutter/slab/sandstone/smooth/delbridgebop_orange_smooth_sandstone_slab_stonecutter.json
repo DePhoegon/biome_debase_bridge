@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "delbase:crafting_sets/color/orange_sand_stone_set"
+  },
+  "result": "biomesoplenty:smooth_orange_sandstone_slab",
+  "count": 2
+} 

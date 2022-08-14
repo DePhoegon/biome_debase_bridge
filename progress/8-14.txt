@@ -1,0 +1,20 @@
+Partial Tag file completion (using delbase Tags)
+-Include adding to setup list for walls, fences, fence gates, stairs, & slabs
+-- which adds to walls & fences,   the mining tools & mining level if any.
+~~ Still need to double check & finish it.
+
+registered, blockstate, models(block/item), loot table
+-- missing blocks (walls, cut & smooth sandstones of biomesoplenty)
+-- Sands & energetic slabs
+
+used already existing block model files if possible.
+
+Fixed misplaced texture folder (typo of blocks)
+
+Fixed misaligned* texture on chiseled walls. (top/wall swapped)
+
+
+Next steps
+-finish tags
+-Do lang file
+-Double check all the blocks for textures.

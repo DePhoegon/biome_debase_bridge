@@ -38,6 +38,8 @@ public class RegList {
 
         //Walls
         ChiseledSandstoneWalls.register(eventBus);
+        CutSandstoneWalls.register(eventBus);
+        SmoothSandstoneWalls.register(eventBus);
         SandWalls.register(eventBus);
         WoodWalls.register(eventBus);
         LogWalls.register(eventBus);

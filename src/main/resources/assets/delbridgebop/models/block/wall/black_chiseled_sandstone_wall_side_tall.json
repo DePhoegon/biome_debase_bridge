@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_side_tall",
 "textures": {
-"wall": "biomesoplenty:block/black_sandstone_top",
-"top": "biomesoplenty:block/chiseled_black_sandstone"
+"top": "biomesoplenty:block/black_sandstone_top",
+"wall": "biomesoplenty:block/chiseled_black_sandstone"
 }
 }

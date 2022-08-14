@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:fir_wood_wall",
+    "delbridgebop:redwood_wood_wall",
+    "delbridgebop:cherry_wood_wall",
+    "delbridgebop:mahogany_wood_wall",
+    "delbridgebop:jacaranda_wood_wall",
+    "delbridgebop:palm_wood_wall",
+    "delbridgebop:willow_wood_wall",
+    "delbridgebop:dead_wood_wall",
+    "delbridgebop:magic_wood_wall",
+    "delbridgebop:umbran_wood_wall",
+    "delbridgebop:hellbark_wood_wall",
+    "delbridgebop:stripped_fir_wood_wall",
+    "delbridgebop:stripped_redwood_wood_wall",
+    "delbridgebop:stripped_cherry_wood_wall",
+    "delbridgebop:stripped_mahogany_wood_wall",
+    "delbridgebop:stripped_jacaranda_wood_wall",
+    "delbridgebop:stripped_palm_wood_wall",
+    "delbridgebop:stripped_willow_wood_wall",
+    "delbridgebop:stripped_dead_wood_wall",
+    "delbridgebop:stripped_magic_wood_wall",
+    "delbridgebop:stripped_umbran_wood_wall",
+    "delbridgebop:stripped_hellbark_wood_wall"
+  ]
+}

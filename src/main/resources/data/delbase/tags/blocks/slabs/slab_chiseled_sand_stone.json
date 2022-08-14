@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:white_chiseled_sandstone_slab",
+    "delbridgebop:orange_chiseled_sandstone_slab",
+    "delbridgebop:black_chiseled_sandstone_slab",
+    "delbridgebop:white_energy_chiseled_sandstone_slab",
+    "delbridgebop:orange_energy_chiseled_sandstone_slab",
+    "delbridgebop:black_energy_chiseled_sandstone_slab"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "delbase:block/template/wall_post",
+  "textures": {
+    "top": "biomesoplenty:block/orange_sandstone_top",
+    "wall": "biomesoplenty:block/orange_sandstone_top"
+  }
+}

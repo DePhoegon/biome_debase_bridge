@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:fir_wood_stair",
+    "delbridgebop:redwood_wood_stair",
+    "delbridgebop:cherry_wood_stair",
+    "delbridgebop:mahogany_wood_stair",
+    "delbridgebop:jacaranda_wood_stair",
+    "delbridgebop:palm_wood_stair",
+    "delbridgebop:willow_wood_stair",
+    "delbridgebop:dead_wood_stair",
+    "delbridgebop:magic_wood_stair",
+    "delbridgebop:umbran_wood_stair",
+    "delbridgebop:hellbark_wood_stair",
+    "delbridgebop:stripped_fir_wood_stair",
+    "delbridgebop:stripped_redwood_wood_stair",
+    "delbridgebop:stripped_cherry_wood_stair",
+    "delbridgebop:stripped_mahogany_wood_stair",
+    "delbridgebop:stripped_jacaranda_wood_stair",
+    "delbridgebop:stripped_palm_wood_stair",
+    "delbridgebop:stripped_willow_wood_stair",
+    "delbridgebop:stripped_dead_wood_stair",
+    "delbridgebop:stripped_magic_wood_stair",
+    "delbridgebop:stripped_umbran_wood_stair",
+    "delbridgebop:stripped_hellbark_wood_stair"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "delbridgebop:fir_wood_slab",
+    "delbridgebop:redwood_wood_slab",
+    "delbridgebop:cherry_wood_slab",
+    "delbridgebop:mahogany_wood_slab",
+    "delbridgebop:jacaranda_wood_slab",
+    "delbridgebop:palm_wood_slab",
+    "delbridgebop:willow_wood_slab",
+    "delbridgebop:dead_wood_slab",
+    "delbridgebop:magic_wood_slab",
+    "delbridgebop:umbran_wood_slab",
+    "delbridgebop:hellbark_wood_slab",
+    "delbridgebop:stripped_fir_wood_slab",
+    "delbridgebop:stripped_redwood_wood_slab",
+    "delbridgebop:stripped_cherry_wood_slab",
+    "delbridgebop:stripped_mahogany_wood_slab",
+    "delbridgebop:stripped_jacaranda_wood_slab",
+    "delbridgebop:stripped_palm_wood_slab",
+    "delbridgebop:stripped_willow_wood_slab",
+    "delbridgebop:stripped_dead_wood_slab",
+    "delbridgebop:stripped_magic_wood_slab",
+    "delbridgebop:stripped_umbran_wood_slab",
+    "delbridgebop:stripped_hellbark_wood_slab"
+  ]
+}
