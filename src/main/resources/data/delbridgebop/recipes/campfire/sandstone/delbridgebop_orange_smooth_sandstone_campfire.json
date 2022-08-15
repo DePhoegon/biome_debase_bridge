@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "delbridgebop:orange_solid_sand"
+  },
+  "result": "biomesoplenty:smooth_orange_sandstone",
+  "experience": 0.35,
+  "cookingtime": 300
+} 

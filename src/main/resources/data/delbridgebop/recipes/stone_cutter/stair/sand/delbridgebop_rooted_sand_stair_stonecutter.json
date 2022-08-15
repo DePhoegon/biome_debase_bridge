@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "delbridgebop:rooted_solid_sand"
+  },
+  "result": "delbridgebop:rooted_sand_stair",
+  "count": 2
+} 

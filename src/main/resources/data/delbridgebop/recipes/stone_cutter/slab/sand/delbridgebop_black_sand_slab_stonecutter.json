@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "delbridgebop:black_solid_sand"
+  },
+  "result": "delbridgebop:black_sand_slab",
+  "count": 2
+}

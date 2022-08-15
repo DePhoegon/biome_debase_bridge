@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "delbase:crafting_sets/color/orange_sand_stone_set"
+  },
+  "result": "delbridgebop:orange_cut_sandstone_stair",
+  "count": 2
+} 

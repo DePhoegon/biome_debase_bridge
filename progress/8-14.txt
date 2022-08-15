@@ -18,3 +18,20 @@ Next steps
 -finish tags
 -Do lang file
 -Double check all the blocks for textures.
+
+==============
+
+Tags done
+
+More Recipes done.
+
+
+Next steps
+----
+finish recipes
+
+ do Lang files
+
+ Doublecheck tags & recipes
+
+ Verify functionality.
