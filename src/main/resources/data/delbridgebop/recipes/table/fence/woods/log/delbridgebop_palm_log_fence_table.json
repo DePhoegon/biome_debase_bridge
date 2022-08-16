@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"#S#",
+"#S#"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:palm_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:palm_log_fence",
+    "count": 4
+  }
+}

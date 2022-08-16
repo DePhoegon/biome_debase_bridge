@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"S#S",
+"S#S"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:palm_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:palm_wood_fence_gate",
+    "count": 2
+  }
+}

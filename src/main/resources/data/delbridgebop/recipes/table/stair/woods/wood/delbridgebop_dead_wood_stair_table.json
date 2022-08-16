@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:dead_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:dead_wood_stair",
+    "count": 4
+  }
+}

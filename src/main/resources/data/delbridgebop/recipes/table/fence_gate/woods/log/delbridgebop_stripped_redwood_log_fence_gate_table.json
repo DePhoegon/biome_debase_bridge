@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"S#S",
+"S#S"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:stripped_redwood_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_redwood_log_fence_gate",
+    "count": 2
+  }
+}

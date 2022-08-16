@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_jacaranda_log_stair",
+    "count": 4
+  }
+}

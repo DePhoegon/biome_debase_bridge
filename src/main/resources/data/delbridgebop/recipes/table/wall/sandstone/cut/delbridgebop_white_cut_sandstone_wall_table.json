@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:cut_white_sandstone"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:white_cut_sandstone_wall",
+    "count": 6
+  }
+}

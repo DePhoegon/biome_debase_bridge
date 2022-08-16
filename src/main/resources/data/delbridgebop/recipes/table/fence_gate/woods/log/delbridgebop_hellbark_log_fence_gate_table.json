@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"S#S",
+"S#S"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:hellbark_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:hellbark_log_fence_gate",
+    "count": 2
+  }
+}

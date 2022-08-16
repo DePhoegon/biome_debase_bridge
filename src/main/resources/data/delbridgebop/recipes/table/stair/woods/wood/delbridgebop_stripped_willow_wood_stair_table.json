@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_willow_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_willow_wood_stair",
+    "count": 4
+  }
+}

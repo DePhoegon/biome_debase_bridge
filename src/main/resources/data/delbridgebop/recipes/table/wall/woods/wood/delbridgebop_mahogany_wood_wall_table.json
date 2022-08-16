@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:mahogany_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:mahogany_wood_wall",
+    "count": 6
+  }
+}

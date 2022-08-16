@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:umbran_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:umbran_wood_wall",
+    "count": 6
+  }
+}

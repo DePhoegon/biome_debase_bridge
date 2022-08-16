@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"#S#",
+"#S#"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:hellbark_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:hellbark_wood_fence",
+    "count": 4
+  }
+}

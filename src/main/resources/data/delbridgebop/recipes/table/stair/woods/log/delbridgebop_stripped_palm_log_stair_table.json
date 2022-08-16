@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_palm_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_palm_log_stair",
+    "count": 4
+  }
+}

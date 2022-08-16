@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "pattern": [
+"#S#",
+"#S#"
+],
+"key": {
+"S": {
+"item": "minecraft:stick"
+},
+    "#": {
+      "item": "biomesoplenty:stripped_mahogany_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_mahogany_log_fence",
+    "count": 4
+  }
+}

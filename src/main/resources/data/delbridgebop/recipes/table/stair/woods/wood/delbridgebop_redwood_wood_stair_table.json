@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:redwood_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:redwood_wood_stair",
+    "count": 4
+  }
+}

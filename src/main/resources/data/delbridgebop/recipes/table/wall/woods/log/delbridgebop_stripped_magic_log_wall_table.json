@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_magic_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_magic_log_wall",
+    "count": 6
+  }
+}

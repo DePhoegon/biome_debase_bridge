@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:hellbark_wood"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:hellbark_wood_wall",
+    "count": 6
+  }
+}
