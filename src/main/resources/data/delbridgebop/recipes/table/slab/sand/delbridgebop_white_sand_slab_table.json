@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "delbridgebop:white_solid_sand"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:white_sand_slab",
+    "count": 6
+  }
+}

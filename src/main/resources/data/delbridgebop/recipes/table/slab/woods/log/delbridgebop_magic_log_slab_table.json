@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:magic_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:magic_log_slab",
+    "count": 6
+  }
+}

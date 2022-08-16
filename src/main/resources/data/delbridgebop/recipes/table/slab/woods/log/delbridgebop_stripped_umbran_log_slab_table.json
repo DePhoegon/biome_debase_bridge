@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_umbran_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_umbran_log_slab",
+    "count": 6
+  }
+}

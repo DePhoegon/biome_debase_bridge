@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:stripped_willow_log"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:stripped_willow_log_slab",
+    "count": 6
+  }
+}
