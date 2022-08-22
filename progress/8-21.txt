@@ -1,0 +1,14 @@
+Updated delbase base mod to do stripping wood
+Updated all registrations for walls.
+
+Corrected model files for woods...
+
+Sorted the clusterf*ck that it was.
+
+=============
+Need to address the 'log' walls, top of sides, to use a custom texture
+- to match base mod.
+
+=========
+
+many many model files fixing.

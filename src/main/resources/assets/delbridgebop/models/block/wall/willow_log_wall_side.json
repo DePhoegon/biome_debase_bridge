@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_side",
 "textures": {
-"wall": "biomesoplenty:block/willow_log_top",
-"top": "biomesoplenty:block/willow_log"
+"wall": "biomesoplenty:block/willow_planks",
+"top": "biomesoplenty:block/willow_planks"
 }
 }

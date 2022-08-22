@@ -1,10 +1,10 @@
 {
 "parent": "delbase:block/template/stairs_column",
 "textures": {
-"bottom": "biomesoplenty:block/jacaranda_log",
-"top": "biomesoplenty:block/jacaranda_log",
-"side": "biomesoplenty:block/jacaranda_log",
-"inside": "biomesoplenty:block/jacaranda_log",
-"inside_base": "biomesoplenty:block/jacaranda_log"
+"bottom": "biomesoplenty:block/stripped_jacaranda_log",
+"top": "biomesoplenty:block/stripped_jacaranda_log",
+"side": "biomesoplenty:block/stripped_jacaranda_log",
+"inside": "biomesoplenty:block/stripped_jacaranda_log",
+"inside_base": "biomesoplenty:block/stripped_jacaranda_log"
 }
 }

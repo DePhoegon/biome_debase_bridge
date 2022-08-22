@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/fence_side",
 "textures": {
-"texture": "biomesoplenty:block/jacaranda_log_top",
+"texture": "biomesoplenty:block/jacaranda_log",
 "postside": "biomesoplenty:block/jacaranda_log"
 }
 }

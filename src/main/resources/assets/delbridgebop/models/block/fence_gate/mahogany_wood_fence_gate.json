@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/fence_gate",
 "textures": {
-"texture": "biomesoplenty:block/mahogany_log_top",
+"texture": "biomesoplenty:block/mahogany_log",
 "postside": "biomesoplenty:block/mahogany_log"
 }
 }

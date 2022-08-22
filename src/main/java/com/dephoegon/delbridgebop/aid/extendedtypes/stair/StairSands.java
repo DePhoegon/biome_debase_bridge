@@ -7,6 +7,6 @@ import java.util.function.Supplier;
 
 public class StairSands extends stairBlock {
     public StairSands(Supplier<BlockState> state, Properties properties, String normToolTip, String shiftToolTip, String ctrlToolTip) {
-        super(state, properties, normToolTip, shiftToolTip, ctrlToolTip, false);
+        super(state, properties, normToolTip, shiftToolTip, ctrlToolTip, false, null);
     }
 }

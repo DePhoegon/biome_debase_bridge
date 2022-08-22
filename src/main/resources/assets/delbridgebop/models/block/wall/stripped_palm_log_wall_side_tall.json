@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_side_tall",
 "textures": {
-"wall": "biomesoplenty:block/stripped_palm_log_top",
-"top": "biomesoplenty:block/stripped_palm_log"
+"wall": "biomesoplenty:block/palm_planks",
+"top": "biomesoplenty:block/palm_planks"
 }
 }

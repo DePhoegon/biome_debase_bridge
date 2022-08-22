@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/fence_post",
 "textures": {
-"texture": "biomesoplenty:block/redwood_log_top",
+"texture": "biomesoplenty:block/redwood_log",
 "postside": "biomesoplenty:block/redwood_log"
 }
 }

@@ -16,21 +16,21 @@ public class RegList {
         //Standard Blocks
 
         //Slabs
-        WoodSlabs.register(eventBus);
-        LogSlabs.register(eventBus);
         StrippedWoodSlabs.register(eventBus);
         StrippedLogSlabs.register(eventBus);
+        WoodSlabs.register(eventBus);
+        LogSlabs.register(eventBus);
         SandSlabs.register(eventBus);
         ChiseledSandstoneSlabs.register(eventBus);
         EnergySandSlabs.register(eventBus);
         EnergySandstoneSlabs.register(eventBus);
 
         //Stairs
+        StrippedLogStairs.register(eventBus);
+        StrippedWoodStairs.register(eventBus);
         SandStairs.register(eventBus);
         LogStairs.register(eventBus);
         WoodStairs.register(eventBus);
-        StrippedLogStairs.register(eventBus);
-        StrippedWoodStairs.register(eventBus);
         CutSandstoneStairs.register(eventBus);
         ChiseledSandstoneStairs.register(eventBus);
 
@@ -41,10 +41,10 @@ public class RegList {
         CutSandstoneWalls.register(eventBus);
         SmoothSandstoneWalls.register(eventBus);
         SandWalls.register(eventBus);
-        WoodWalls.register(eventBus);
-        LogWalls.register(eventBus);
         StrippedWoodWalls.register(eventBus);
         StrippedLogWalls.register(eventBus);
+        WoodWalls.register(eventBus);
+        LogWalls.register(eventBus);
 
         //Fences
         BrickFences.register(eventBus);
@@ -59,14 +59,14 @@ public class RegList {
         SandstoneFenceGates.register(eventBus);
         SmoothSandstoneFences.register(eventBus);
         SmoothSandstoneFenceGates.register(eventBus);
-        WoodFences.register(eventBus);
-        WoodFenceGates.register(eventBus);
-        LogFences.register(eventBus);
-        LogFenceGates.register(eventBus);
         StrippedWoodFences.register(eventBus);
         StrippedWoodFenceGates.register(eventBus);
         StrippedLogFences.register(eventBus);
         StrippedLogFenceGates.register(eventBus);
+        WoodFences.register(eventBus);
+        WoodFenceGates.register(eventBus);
+        LogFences.register(eventBus);
+        LogFenceGates.register(eventBus);
 
         //Special_Blocks
 

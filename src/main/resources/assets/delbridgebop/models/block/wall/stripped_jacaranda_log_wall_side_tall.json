@@ -1,7 +1,7 @@
 {
 "parent": "delbase:block/template/wall_side_tall",
 "textures": {
-"wall": "biomesoplenty:block/stripped_jacaranda_log_top",
-"top": "biomesoplenty:block/stripped_jacaranda_log"
+"wall": "biomesoplenty:block/jacaranda_planks",
+"top": "biomesoplenty:block/jacaranda_planks"
 }
 }

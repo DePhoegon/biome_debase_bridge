@@ -22,7 +22,7 @@ public class BrickFenceGates {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceGateBlock> MUD_BRICKS_FENCE_GATE = register("mud_bricks_fence_gate",
-    () -> new FenceGateMiscs(BlockBehaviour.Properties.copy(MUD_BRICKS), "","","",false));
+    () -> new FenceGateMiscs(BlockBehaviour.Properties.copy(MUD_BRICKS), "","","",false, null));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
