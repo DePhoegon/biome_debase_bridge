@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "biomesoplenty:smooth_orange_sandstone"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:orange_smooth_sandstone_fence",
+    "count": 4
+  }
+}

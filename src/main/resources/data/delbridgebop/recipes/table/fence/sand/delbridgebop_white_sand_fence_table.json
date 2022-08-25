@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "delbridgebop:white_solid_sand"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:white_sand_fence",
+    "count": 4
+  }
+}

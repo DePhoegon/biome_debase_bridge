@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "biomesoplenty:chiseled_white_sandstone"
+    }
+  },
+  "result": {
+    "item": "delbridgebop:white_chiseled_sandstone_fence",
+    "count": 4
+  }
+}
