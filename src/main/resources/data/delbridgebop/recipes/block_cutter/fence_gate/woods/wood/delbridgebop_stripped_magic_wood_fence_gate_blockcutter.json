@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:fence_gate_plans"
+    },
+    {
+      "item": "biomesoplenty:stripped_magic_wood"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:stripped_magic_wood_fence_gate",
+    "count": 1
+  }
+}

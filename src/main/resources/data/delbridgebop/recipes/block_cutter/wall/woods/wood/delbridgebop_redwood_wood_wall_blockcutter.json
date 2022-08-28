@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:wall_plans"
+    },
+    {
+      "item": "biomesoplenty:redwood_wood"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:redwood_wood_wall",
+    "count": 1
+  }
+}

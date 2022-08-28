@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:stair_plans"
+    },
+    {
+      "item": "delbridgebop:rooted_solid_sand"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:rooted_sand_stair",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:fence_gate_plans"
+    },
+    {
+      "item": "biomesoplenty:hellbark_wood"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:hellbark_wood_fence_gate",
+    "count": 1
+  }
+}

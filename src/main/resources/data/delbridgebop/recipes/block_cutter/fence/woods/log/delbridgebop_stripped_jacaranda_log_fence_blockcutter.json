@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:fence_plans"
+    },
+    {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:stripped_jacaranda_log_fence",
+    "count": 1
+  }
+}

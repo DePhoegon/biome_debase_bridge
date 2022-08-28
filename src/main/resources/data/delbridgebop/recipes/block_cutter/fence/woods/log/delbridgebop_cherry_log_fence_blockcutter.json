@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:fence_plans"
+    },
+    {
+      "item": "biomesoplenty:cherry_log"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:cherry_log_fence",
+    "count": 1
+  }
+}

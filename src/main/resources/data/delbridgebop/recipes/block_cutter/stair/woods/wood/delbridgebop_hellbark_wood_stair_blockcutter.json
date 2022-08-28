@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:stair_plans"
+    },
+    {
+      "item": "biomesoplenty:hellbark_wood"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:hellbark_wood_stair",
+    "count": 1
+  }
+}

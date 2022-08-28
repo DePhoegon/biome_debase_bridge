@@ -1,0 +1,15 @@
+{
+  "type": "delbase:block_cutting",
+  "ingredients": [
+    {
+      "item": "delbase:wall_plans"
+    },
+    {
+      "item": "biomesoplenty:cut_orange_sandstone"
+    }
+  ],
+  "output": {
+    "item": "delbridgebop:orange_cut_sandstone_wall",
+    "count": 1
+  }
+}
