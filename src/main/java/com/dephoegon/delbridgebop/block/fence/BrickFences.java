@@ -1,6 +1,6 @@
 package com.dephoegon.delbridgebop.block.fence;
 
-import com.dephoegon.delbridgebop.aid.extendedtypes.fence.FenceMiscs;
+import com.dephoegon.delbase.aid.block.stock.fenceBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -22,7 +22,7 @@ public class BrickFences {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceBlock> MUD_BRICKS_FENCE = register("mud_bricks_fence",
-            () -> new FenceMiscs(BlockBehaviour.Properties.copy(MUD_BRICKS),"","","", false, null));
+            () -> new fenceBlock(BlockBehaviour.Properties.copy(MUD_BRICKS),"","","", false, null));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -30,8 +30,7 @@ public class BrickFences {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

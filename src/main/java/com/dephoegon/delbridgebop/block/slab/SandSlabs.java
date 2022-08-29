@@ -1,7 +1,7 @@
 package com.dephoegon.delbridgebop.block.slab;
 
 import biomesoplenty.api.block.BOPBlocks;
-import com.dephoegon.delbridgebop.aid.extendedtypes.slab.SlabSands;
+import com.dephoegon.delbase.aid.block.colorshift.slab.sandSlab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -23,13 +23,13 @@ public class SandSlabs {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<SlabBlock> WHITE_SAND_SLAB = register("white_sand_slab",
-            () -> new SlabSands(BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new sandSlab(BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<SlabBlock> ORANGE_SAND_SLAB = register("orange_sand_slab",
-            () -> new SlabSands(BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new sandSlab(BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<SlabBlock> BLACK_SAND_SLAB = register("black_sand_slab",
-            () -> new SlabSands(BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"","",""));
+            () -> new sandSlab(BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<SlabBlock> ROOTED_SAND_SLAB = register("rooted_sand_slab",
-            () -> new SlabSands(BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"","",""));
+            () -> new sandSlab(BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -37,8 +37,7 @@ public class SandSlabs {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

@@ -1,6 +1,6 @@
 package com.dephoegon.delbridgebop.block.stair;
 
-import com.dephoegon.delbridgebop.aid.extendedtypes.stair.StairWoods;
+import com.dephoegon.delbase.aid.block.alt.woodStair;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -27,27 +27,27 @@ public class StrippedLogStairs {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<StairBlock> STRIPPED_FIR_LOG_STAIR = register("stripped_fir_log_stair",
-            () -> new StairWoods(FIR_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, null), 5001);
+            () -> new woodStair(FIR_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_REDWOOD_LOG_STAIR = register("stripped_redwood_log_stair",
-            () -> new StairWoods(REDWOOD_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(REDWOOD_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_CHERRY_LOG_STAIR = register("stripped_cherry_log_stair",
-            () -> new StairWoods(CHERRY_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(CHERRY_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_MAHOGANY_LOG_STAIR = register("stripped_mahogany_log_stair",
-            () -> new StairWoods(MAHOGANY_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(MAHOGANY_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_JACARANDA_LOG_STAIR = register("stripped_jacaranda_log_stair",
-            () -> new StairWoods(JACARANDA_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(JACARANDA_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_PALM_LOG_STAIR = register("stripped_palm_log_stair",
-            () -> new StairWoods(PALM_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(PALM_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_WILLOW_LOG_STAIR = register("stripped_willow_log_stair",
-            () -> new StairWoods(WILLOW_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(WILLOW_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_DEAD_LOG_STAIR = register("stripped_dead_log_stair",
-            () -> new StairWoods(DEAD_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, null));
+            () -> new woodStair(DEAD_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, null));
     public static final RegistryObject<StairBlock> STRIPPED_MAGIC_LOG_STAIR = register("stripped_magic_log_stair",
-            () -> new StairWoods(MAGIC_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(MAGIC_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_UMBRAN_LOG_STAIR = register("stripped_umbran_log_stair",
-            () -> new StairWoods(UMBRAN_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
+            () -> new woodStair(UMBRAN_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, null), 5001);
     public static final RegistryObject<StairBlock> STRIPPED_HELLBARK_LOG_STAIR = register("stripped_hellbark_log_stair",
-            () -> new StairWoods(HELLBARK_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, null));
+            () -> new woodStair(HELLBARK_WOOD::defaultBlockState, BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, null));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -55,8 +55,7 @@ public class StrippedLogStairs {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block, int burn) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
             public int getBurnTime(ItemStack stack, @Nullable RecipeType<?> recipeType) {
                 return burn;
             }
@@ -66,8 +65,7 @@ public class StrippedLogStairs {
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

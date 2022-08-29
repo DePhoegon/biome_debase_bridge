@@ -9,13 +9,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 public class RegList {
     public static void ListOrder(IEventBus eventBus) {
-        //aid
-
-        //Items
-
-        //Standard Blocks
-
-        //Slabs
         StrippedWoodSlabs.register(eventBus);
         StrippedLogSlabs.register(eventBus);
         WoodSlabs.register(eventBus);
@@ -25,7 +18,6 @@ public class RegList {
         EnergySandSlabs.register(eventBus);
         EnergySandstoneSlabs.register(eventBus);
 
-        //Stairs
         StrippedLogStairs.register(eventBus);
         StrippedWoodStairs.register(eventBus);
         SandStairs.register(eventBus);
@@ -34,9 +26,6 @@ public class RegList {
         CutSandstoneStairs.register(eventBus);
         ChiseledSandstoneStairs.register(eventBus);
 
-        //Pillars
-
-        //Walls
         ChiseledSandstoneWalls.register(eventBus);
         CutSandstoneWalls.register(eventBus);
         SmoothSandstoneWalls.register(eventBus);
@@ -46,31 +35,28 @@ public class RegList {
         WoodWalls.register(eventBus);
         LogWalls.register(eventBus);
 
-        //Fences
         BrickFences.register(eventBus);
-        BrickFenceGates.register(eventBus);
         ChiseledSandstoneFences.register(eventBus);
-        ChiseledSandstoneFenceGates.register(eventBus);
-        CutSandstoneFences.register(eventBus);
-        CutSandstoneFenceGates.register(eventBus);
         SandFences.register(eventBus);
-        SandFenceGates.register(eventBus);
         SandstoneFences.register(eventBus);
-        SandstoneFenceGates.register(eventBus);
-        SmoothSandstoneFences.register(eventBus);
-        SmoothSandstoneFenceGates.register(eventBus);
         StrippedWoodFences.register(eventBus);
-        StrippedWoodFenceGates.register(eventBus);
         StrippedLogFences.register(eventBus);
-        StrippedLogFenceGates.register(eventBus);
         WoodFences.register(eventBus);
-        WoodFenceGates.register(eventBus);
         LogFences.register(eventBus);
+
+        SmoothSandstoneFences.register(eventBus);
+        CutSandstoneFences.register(eventBus);
+        BrickFenceGates.register(eventBus);
+        ChiseledSandstoneFenceGates.register(eventBus);
+        CutSandstoneFenceGates.register(eventBus);
+        SandFenceGates.register(eventBus);
+        SandstoneFenceGates.register(eventBus);
+        SmoothSandstoneFenceGates.register(eventBus);
+        StrippedWoodFenceGates.register(eventBus);
+        StrippedLogFenceGates.register(eventBus);
+        WoodFenceGates.register(eventBus);
         LogFenceGates.register(eventBus);
 
-        //Special_Blocks
-
-        //Special
         OverrideSandsBOP.register(eventBus);
         SolidSands.register(eventBus);
     }

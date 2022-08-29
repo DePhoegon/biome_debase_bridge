@@ -1,36 +1,26 @@
-Stripped logs / Stripped wood / logs / wood
+=============  Notes ====================
+Mud Bricks (one Block)
 
-Fir
-Redwood
-Cherry
-mahogany
-jacaranda
-palm
-willow
-Dead
-Magic
-Umbran
-hellbark
+SandStone ( Cut, Normal, Smooth, & chiseled)
+- White
+- Orange
+- Black
 
-===========
-White sand
-orange sand
-black sand
-rooted sand
+Sand
+- White
+- Orange
+- Black
+- Rooted
 
-========
-Sandstones   [Stairs/slabs/wall]
-regular [x/x/x]
-smooth [x/x/x]
-cut [-/x/x]
-- of white, orange, black
-
-Mud Brick
-- Stair
-- Slab
-- wall
-
-===================
-Completed Selection
-
-Wood Slabs [x]
+Wood ( wood, log, stripped wood, stripped log )
+-Fir
+-Redwood
+-Cherry
+-mahogany
+-jacaranda
+-palm
+-willow
+-Dead
+-Magic
+-Umbran
+-hellbark

@@ -23,11 +23,11 @@ public class ChiseledSandstoneStairs {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<StairBlock> WHITE_CHISELED_SANDSTONE_STAIR = register("white_chiseled_sandstone_stair",
-            () -> new StairSandstones(BOPBlocks.CHISELED_WHITE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_WHITE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new StairSandstones(BOPBlocks.CHISELED_WHITE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_WHITE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<StairBlock> ORANGE_CHISELED_SANDSTONE_STAIR = register("orange_chiseled_sandstone_stair",
-            () -> new StairSandstones(BOPBlocks.CHISELED_ORANGE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_ORANGE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new StairSandstones(BOPBlocks.CHISELED_ORANGE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_ORANGE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<StairBlock> BLACK_CHISELED_SANDSTONE_STAIR = register("black_chiseled_sandstone_stair",
-            () -> new StairSandstones(BOPBlocks.CHISELED_BLACK_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_BLACK_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new StairSandstones(BOPBlocks.CHISELED_BLACK_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_BLACK_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -35,8 +35,7 @@ public class ChiseledSandstoneStairs {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

@@ -23,13 +23,13 @@ public class SandFences {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceBlock> WHITE_SAND_FENCE = register("white_sand_fence",
-            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceBlock> ORANGE_SAND_FENCE = register("orange_sand_fence",
-            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceBlock> BLACK_SAND_FENCE = register("black_sand_fence",
-            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"","",""));
+            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceBlock> ROOTED_SAND_FENCE = register("rooted_sand_fence",
-            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"","",""));
+            () -> new FenceSands(BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -37,8 +37,7 @@ public class SandFences {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

@@ -1,0 +1,23 @@
+Recipes
+-------------
+Block Cutter Recipes
+
+Code Cleanup
+----------------
+- Removal of needless class files.
+== Calling block class inside delbase
+
+- Updated block registration
+- Lang file (en_us.json)
+
+-Trimmed Main file
+== Removed useless methods (for the bridge)
+
+Updated GitHub Desktop on Acer & Surface Systems (to enable filtering/knowing which system the work was done on for each commit)
+
+Todo
+-----------
+- Finalize any additional materials
+- Wall Texture tops
+- Verify Recipes for Bridge mod
+- Test blocks, & look for oversights.

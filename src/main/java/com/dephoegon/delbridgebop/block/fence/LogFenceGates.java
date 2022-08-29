@@ -1,6 +1,6 @@
 package com.dephoegon.delbridgebop.block.fence;
 
-import com.dephoegon.delbridgebop.aid.extendedtypes.fence.FenceGateWoods;
+import com.dephoegon.delbase.aid.block.stock.fenceGateBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -27,27 +27,27 @@ public class LogFenceGates {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceGateBlock> FIR_LOG_FENCE_GATE = register("fir_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, STRIPPED_FIR_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, STRIPPED_FIR_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> REDWOOD_LOG_FENCE_GATE = register("redwood_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_REDWOOD_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_REDWOOD_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> CHERRY_LOG_FENCE_GATE = register("cherry_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_CHERRY_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_CHERRY_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> MAHOGANY_LOG_FENCE_GATE = register("mahogany_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAHOGANY_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAHOGANY_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> JACARANDA_LOG_FENCE_GATE = register("jacaranda_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_JACARANDA_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_JACARANDA_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> PALM_LOG_FENCE_GATE = register("palm_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_PALM_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_PALM_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> WILLOW_LOG_FENCE_GATE = register("willow_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_WILLOW_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_WILLOW_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> DEAD_LOG_FENCE_GATE = register("dead_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_DEAD_LOG_FENCE_GATE.get().defaultBlockState()));
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_DEAD_LOG_FENCE_GATE.get().defaultBlockState()));
     public static final RegistryObject<FenceGateBlock> MAGIC_LOG_FENCE_GATE = register("magic_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAGIC_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAGIC_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> UMBRAN_LOG_FENCE_GATE = register("umbran_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_UMBRAN_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_UMBRAN_LOG_FENCE_GATE.get().defaultBlockState()), 1000);
     public static final RegistryObject<FenceGateBlock> HELLBARK_LOG_FENCE_GATE = register("hellbark_log_fence_gate",
-            () -> new FenceGateWoods(BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_HELLBARK_LOG_FENCE_GATE.get().defaultBlockState()));
+            () -> new fenceGateBlock(BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_HELLBARK_LOG_FENCE_GATE.get().defaultBlockState()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -55,8 +55,7 @@ public class LogFenceGates {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block, int burn) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
             public int getBurnTime(ItemStack stack, @Nullable RecipeType<?> recipeType) {
                 return burn;
             }
@@ -66,8 +65,7 @@ public class LogFenceGates {
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

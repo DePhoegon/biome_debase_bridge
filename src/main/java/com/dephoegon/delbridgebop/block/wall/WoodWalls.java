@@ -1,6 +1,6 @@
 package com.dephoegon.delbridgebop.block.wall;
 
-import com.dephoegon.delbridgebop.aid.extendedtypes.wall.WallWoods;
+import com.dephoegon.delbase.aid.block.stock.wallBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -27,27 +27,27 @@ public class WoodWalls {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<WallBlock> FIR_WOOD_WALL = register("fir_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, STRIPPED_FIR_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(FIR_WOOD).sound(SoundType.WOOD),"","","",true, STRIPPED_FIR_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> REDWOOD_WOOD_WALL = register("redwood_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_REDWOOD_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(REDWOOD_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_REDWOOD_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> CHERRY_WOOD_WALL = register("cherry_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_CHERRY_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(CHERRY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_CHERRY_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> MAHOGANY_WOOD_WALL = register("mahogany_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAHOGANY_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(MAHOGANY_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAHOGANY_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> JACARANDA_WOOD_WALL = register("jacaranda_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_JACARANDA_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(JACARANDA_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_JACARANDA_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> PALM_WOOD_WALL = register("palm_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_PALM_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(PALM_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_PALM_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> WILLOW_WOOD_WALL = register("willow_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_WILLOW_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(WILLOW_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_WILLOW_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> DEAD_WOOD_WALL = register("dead_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_DEAD_WOOD_WALL.get().defaultBlockState()));
+            () -> new wallBlock(BlockBehaviour.Properties.copy(DEAD_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_DEAD_WOOD_WALL.get().defaultBlockState()));
     public static final RegistryObject<WallBlock> MAGIC_WOOD_WALL = register("magic_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAGIC_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(MAGIC_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_MAGIC_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> UMBRAN_WOOD_WALL = register("umbran_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_UMBRAN_WOOD_WALL.get().defaultBlockState()), 5001);
+            () -> new wallBlock(BlockBehaviour.Properties.copy(UMBRAN_WOOD).sound(SoundType.WOOD),"","","", true, STRIPPED_UMBRAN_WOOD_WALL.get().defaultBlockState()), 5001);
     public static final RegistryObject<WallBlock> HELLBARK_WOOD_WALL = register("hellbark_wood_wall",
-            () -> new WallWoods(BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_HELLBARK_WOOD_WALL.get().defaultBlockState()));
+            () -> new wallBlock(BlockBehaviour.Properties.copy(HELLBARK_WOOD).sound(SoundType.WOOD),"","","", false, STRIPPED_HELLBARK_WOOD_WALL.get().defaultBlockState()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -55,19 +55,16 @@ public class WoodWalls {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block, int burn) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)) {
             public int getBurnTime(ItemStack stack, @Nullable RecipeType<?> recipeType) {
                 return burn;
             }
         });
         return exit;
     }
-
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

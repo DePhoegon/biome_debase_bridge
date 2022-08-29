@@ -23,11 +23,11 @@ public class SmoothSandstoneWalls {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<WallBlock> WHITE_SMOOTH_SANDSTONE_WALL = register("white_smooth_sandstone_wall",
-            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_WHITE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_WHITE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<WallBlock> ORANGE_SMOOTH_SANDSTONE_WALL = register("orange_smooth_sandstone_wall",
-            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_ORANGE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_ORANGE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<WallBlock> BLACK_SMOOTH_SANDSTONE_WALL = register("black_smooth_sandstone_wall",
-            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_BLACK_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new WallSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_BLACK_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -35,8 +35,7 @@ public class SmoothSandstoneWalls {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

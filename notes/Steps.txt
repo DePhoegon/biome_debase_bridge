@@ -1,80 +1,20 @@
 Steps in Order
 ==============
-Register Blocks
-------------
-Slabs [-]
-Stairs [-]
-Walls [-]
-Fences [-]
-FenceGates [-]
-Override [-]
-SolidSands [-]
-EnergeticSlabs [-]
-
-Language files
----------------
-names for blocks
-
 Dye Extends
 ---------------
 Setup in a priority setup
 -BiomesOplenty bridge first
 =Future bridges, needing to override dyes for color swaps, do so from the bridge mod instead.
 
+Textures
+-------------
+Tops of Wall textures for 'Log' walls
+- aka, edit plank texture of each to match delbase 'Log' walls
 
-Locate Textures
+mods.toml
 ----------------
--Wood
--Sand
--SandStone
--Mud Brick
-
-Model Files (Block & Item)
-------------
-Slabs [wood, sand]
-Stairs [cut sandstone, sand, wood]
-Walls [sand, wood]
-Fence [mud bricks, sandstone, wood, sand]
-FenceGate [mud bricks, sandstone, wood, sand]
-SolidSands [Sand]
-EnergeticSlabs [Sandstone, Sand]
-
-Tag Files
-----------
-Setup & used the tag files as needed.
--Possibly Update Delbase to support tage usage.
-
-Fine Tune bits & bops
---------------
-Align textures as needed
-
-
-=============  Notes ====================
-Mud Bricks (one Block)
-
-SandStone ( Cut, Normal, Smooth, & chiseled)
-- White
-- Orange
-- Black
-
-Sand
-- White
-- Orange
-- Black
-- Rooted
-
-Wood ( wood, log, stripped wood, stripped log )
--Fir
--Redwood
--Cherry
--mahogany
--jacaranda
--palm
--willow
--Dead
--Magic
--Umbran
--hellbark
+Logo File (image)
+Update & such
 
 ======================= Additional Notes ======================
 No Intent to do

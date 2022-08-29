@@ -23,13 +23,13 @@ public class SandStairs {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<StairBlock> WHITE_SAND_STAIR = register("white_sand_stair",
-            () -> new StairSands(BOPBlocks.WHITE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new StairSands(BOPBlocks.WHITE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.WHITE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<StairBlock> ORANGE_SAND_STAIR = register("orange_sand_stair",
-            () -> new StairSands(BOPBlocks.ORANGE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"","",""));
+            () -> new StairSands(BOPBlocks.ORANGE_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.ORANGE_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<StairBlock> BLACK_SAND_STAIR = register("black_sand_stair",
-            () -> new StairSands(BOPBlocks.BLACK_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"","",""));
+            () -> new StairSands(BOPBlocks.BLACK_SANDSTONE::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.BLACK_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<StairBlock> ROOTED_SAND_STAIR = register("rooted_sand_stair",
-            () -> new StairSands(BOPBlocks.MUD_BRICKS::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"","",""));
+            () -> new StairSands(BOPBlocks.MUD_BRICKS::defaultBlockState, BlockBehaviour.Properties.copy(BOPBlocks.ROOTED_SAND).sound(SoundType.SAND),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -37,8 +37,7 @@ public class SandStairs {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

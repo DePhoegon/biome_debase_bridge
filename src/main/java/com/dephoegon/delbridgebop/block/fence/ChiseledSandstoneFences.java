@@ -23,11 +23,11 @@ public class ChiseledSandstoneFences {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceBlock> WHITE_CHISELED_SANDSTONE_FENCE = register("white_chiseled_sandstone_fence",
-            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_WHITE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_WHITE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceBlock> ORANGE_CHISELED_SANDSTONE_FENCE = register("orange_chiseled_sandstone_fence",
-            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_ORANGE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_ORANGE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceBlock> BLACK_CHISELED_SANDSTONE_FENCE = register("black_chiseled_sandstone_fence",
-            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_BLACK_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceSandstones(BlockBehaviour.Properties.copy(BOPBlocks.CHISELED_BLACK_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -35,8 +35,7 @@ public class ChiseledSandstoneFences {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }

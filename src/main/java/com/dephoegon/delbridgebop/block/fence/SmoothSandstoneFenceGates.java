@@ -23,11 +23,11 @@ public class SmoothSandstoneFenceGates {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mod_ID);
 
     public static final RegistryObject<FenceGateBlock> WHITE_SMOOTH_SANDSTONE_FENCE_GATE = register("white_smooth_sandstone_fence_gate",
-            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_WHITE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_WHITE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceGateBlock> ORANGE_SMOOTH_SANDSTONE_FENCE_GATE = register("orange_smooth_sandstone_fence_gate",
-            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_ORANGE_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_ORANGE_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
     public static final RegistryObject<FenceGateBlock> BLACK_SMOOTH_SANDSTONE_FENCE_GATE = register("black_smooth_sandstone_fence_gate",
-            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_BLACK_SANDSTONE).sound(SoundType.STONE),"","",""));
+            () -> new FenceGateSandstones(BlockBehaviour.Properties.copy(BOPBlocks.SMOOTH_BLACK_SANDSTONE).sound(SoundType.STONE),"tooltip.delbridgebop.bop","",""));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
@@ -35,8 +35,7 @@ public class SmoothSandstoneFenceGates {
     }
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> exit = BLOCKS.register(name, block);
-        ITEMS.register(name, () -> new BlockItem(exit.get(),
-                new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
+        ITEMS.register(name, () -> new BlockItem(exit.get(), new Item.Properties().stacksTo(64).tab(BASE_BLOCK)));
         return exit;
     }
 }
