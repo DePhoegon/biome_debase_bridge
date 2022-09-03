@@ -1,0 +1,11 @@
+Initial Release
+1.0
+===================
+Tested Blocks
+Recipes
+
+Dependencies
+===================
+Delbase 1.2 - 1.5
+-included range to not have to update the bridge without needing to update the bridge without reason.
+
